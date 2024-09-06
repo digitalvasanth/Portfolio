@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
     const seeMyWorkBtn = "< > SEE MY WORK";
     return (
-        <div className='lg:absolute bg-gradient-to-r from-white rounded-2xl w-full lg:w-4/12 mx-10 my-10  lg:mx-20 p-9'>
+        <div className='lg:absolute bg-gradient-to-r from-white rounded-2xl w-full lg:w-4/12 mx-10  lg:mx-20 p-9'>
             <h1 className='my-5 text-7xl font-extralight'><span className='text-red-600'>Hi,</span> I'm Rakesh</h1>
             <p className='text-3xl my-5'>A fullstack developer</p>
             <span>I enjoy solving complex problems. Frequently praised as detail-oriented by my peers, I can be relied upon to help your company achieve its goals by providing sustainable and scalable solutions.</span>
