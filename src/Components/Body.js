@@ -32,24 +32,3 @@ const Body = () => {
 }
 
 export default Body
-
-
-{/* <div className='bg-black h-screen'>
-            <img alt='bg'
-                className=' absolute h-screen opacity-80 object-contain'
-                src='https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725525622/xu2bkeidopsvt2e0clds.avif' />
-            <div className='flex'>
-                <div className='flex flex-col justify-center h-screen w-6/12'>
-                    <Intro />
-                </div>
-                <div className='w-6/12'>
-
-                </div>
-            </div>
-        </div>
-
-
-
-                                <div className='hidden lg:block absolute -b-14 h-[500px] w-[500px] rounded-full bg-indigo-900 left-0 mx-auto'></div>
-
-    ) */}
