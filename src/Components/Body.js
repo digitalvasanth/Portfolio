@@ -18,8 +18,8 @@ const Body = () => {
                         <div className='h-96 w-72  flex items-end  '>
                             <img alt='profile'
                                 className='bottom-0 h-5/6 object-cover mx-auto '
-                                src='https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725605781/oz7vlpceaiv2yr2hsybw.png' />
-                            <div className='bg-gradient-to-b from-red-600 opacity-75 w-72 h-80 rounded-full  object-fill mx-auto mt-20 absolute -z-10'></div>
+                                src='https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725652816/sj9mkqcyiuhllbafmzwz.png' />
+                            <div className='bg-gradient-to-b from-red-600 opacity-75 w-72 h-80 rounded-t-full  object-fill mx-auto -my-20 absolute -z-10'></div>
 
                         </div>
 

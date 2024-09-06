@@ -3,9 +3,9 @@ import React from 'react'
 const SkillCard = ({ name, path }) => {
 
     return (
-        <div className='w-2/12  lg:w-[17%] text-center lg:flex lg:flex-col lg:items-center lg:mx-auto m-5'>
-            <div><h1 className='mb-3 px-4'>{name}</h1></div>
-            <img className='lg:w-24 ' alt={name} src={path} />
+        <div className='m-5 flex flex-col items-center lg:w-3/12 lg:m-0'>
+            <h1 className='text-sm pb-4'>{name}</h1>
+            <img className='w-14 lg:w-20' alt={name} src={path} />
         </div>
     )
 }

@@ -15,7 +15,7 @@ const TechSkills = () => {
                         className=''
                         src='https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725642145/mtsl4mfvynhx7hcavm4u.png' />
                 </div>
-                <div className='mt-14 lg:mt-0  bg--400 mr-0 flex flex-wrap justify-center  lg:w-8/12'>
+                <div className='mt-14 lg:mt-0 flex flex-wrap justify-center  lg:w-8/12'>
                     {SKILL_LIST_LOGOS.map(skill => <SkillCard key={skill.id} name={skill.name} path={skill.url} />)}
                 </div>
             </div>

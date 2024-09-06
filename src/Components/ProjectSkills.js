@@ -9,7 +9,7 @@ const ProjectSkills = () => {
                 tools.includes(skill.name) &&
 
                 <div className='mt-5 mx-5 flex flex-col items-center'>
-                    <h1 className='text-sm '>{skill.name}</h1>
+                    <h1 className='text-sm pb-5'>{skill.name}</h1>
                     <img className='w-10' alt={skill.name} src={skill.url} />
                 </div>
             )}
