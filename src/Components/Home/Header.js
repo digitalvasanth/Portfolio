@@ -8,7 +8,7 @@ const Header = () => {
     const dispatch = useDispatch();
     const toogle = useSelector(store => store.nav.isMenuOpen)
 
-    const homeItems = ["Home", "Tools & Skills", "Featured Projects", "Contact Me"];
+    //const homeItems = ["Home", "Tools & Skills", "Featured Projects", "Contact Me"];
     const handleToogleMenu = () => {
         dispatch(toogleMenu());
     }
@@ -34,9 +34,15 @@ const Header = () => {
             </div>
             {toogle && <div>
                 <hr></hr>
-                <ul className='bg-slate-50 shadow-lg underline absolute left-0  w-full p-4 rounded-b-3xl space-y-10 text-center'>
-                    {homeItems.map(item => <li key={item}>{item}</li>)}
-                </ul></div>}
+                <div className='bg-slate-50 shadow-lg underline absolute left-0  w-full p-4 rounded-b-3xl space-y-10 text-center flex flex-col'>
+                    {navLinks.map(item =>
+                        <Link to={item.navSection}
+                            spy={true}
+                            smooth={true}
+                            duration={500}>
+                            <button key={item.id} className='hover:text-gray-500 hover:cursor-pointer'>{item.navItem}</button></Link>
+                    )}
+                </div></div>}
         </nav>
     );
 }
