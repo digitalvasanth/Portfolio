@@ -40,3 +40,56 @@ export const SKILL_LIST_LOGOS = [
         url: "https://img.icons8.com/?size=160&id=b6vIINYN0kfW&format=png"
     }
 ];
+
+export const BG_IMG = "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725525622/xu2bkeidopsvt2e0clds.avif";
+
+export const PROFILE_PIC = "https://res.coudinary.com/dc6fwvmjh/image/upload/v1725652816/sj9mkqcyiuhllbafmzwz.png";
+
+export const DARK_MODE_ICON = "https://cdn-icons-png.flaticon.com/128/17645/17645417.png";
+
+export const SOCIAL_MEDIA_LOGOS = [
+    {
+        id: 0,
+        logoName: "Twitter",
+        url: "https://cdn-icons-png.flaticon.com/128/15707/15707824.png",
+    },
+    {
+        id: 1,
+        logoName: "Linked in",
+        url: "https://cdn-icons-png.flaticon.com/128/15707/15707782.png",
+    },
+    {
+        id: 2,
+        logoName: "Git hub",
+        url: "https://cdn-icons-png.flaticon.com/128/5968/5968896.png"
+    },
+]
+
+export const EMAIL_LOGO = "https://cdn-icons-png.flaticon.com/128/6244/6244710.png";
+
+export const MSG_SENT_ICON = "https://cdn-icons-png.flaticon.com/128/10135/10135168.png";
+
+export const STUDY_MAN_LOGO = "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725642145/mtsl4mfvynhx7hcavm4u.png";
+
+export const navLinks = [
+    {
+        id: 0,
+        navSection: "sectionHome",
+        navItem: "Home"
+    },
+    {
+        id: 1,
+        navSection: "sectionTech",
+        navItem: "Tools & Skills"
+    },
+    {
+        id: 2,
+        navSection: "sectionProjects",
+        navItem: "Featured Projects"
+    },
+    {
+        id: 3,
+        navSection: "sectionContact",
+        navItem: "Contact Me"
+    }
+];
