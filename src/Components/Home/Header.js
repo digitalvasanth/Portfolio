@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { toogleMenu } from '../../utils/navSlice';
-import { navLinks, RESUME_CDN } from '../../utils/constants';
+import { navLinks } from '../../utils/constants';
 import { Link } from 'react-scroll';
 const Header = () => {
     const name = "< Rakesh />"
@@ -15,7 +15,6 @@ const Header = () => {
             <div className='container mx-auto py-5 flex items-center text-sm uppercase font-semibold justify-between'>
                 <div className='md:text-lg cursor-pointer'>{name}</div>
                 <ul className='hidden md:flex space-x-10'>
-                    <a href={RESUME_CDN}><li className='hover:text-gray-500 hover:cursor-pointer'>Resume</li></a>
 
                     {navLinks.map(item =>
                         <Link key={item.id} to={item.navSection}
@@ -42,7 +41,6 @@ const Header = () => {
                             duration={500}>
                             <button className='hover:text-gray-500 hover:cursor-pointer'>{item.navItem}</button></Link>
                     )}
-                    <a href={RESUME_CDN}><button className='hover:text-gray-500 hover:cursor-pointer'>Resume</button></a>
                 </div></div>}
         </nav>
     );
