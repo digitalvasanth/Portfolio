@@ -25,8 +25,8 @@ const ProjectImageCurosel = ({ projectUrl }) => {
                     <div>
                         <img src={url[0].url} />
                         <div className='flex justify-between'>
-                            <button onClick={handleLeft}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
-                            <button onClick={handleRight}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleLeft}><img alt='left' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleRight}><img alt='right' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
                         </div>
                     </div>
                     : ""
@@ -36,8 +36,8 @@ const ProjectImageCurosel = ({ projectUrl }) => {
                     <div>
                         <img src={url[1].url} />
                         <div className='flex justify-between'>
-                            <button onClick={handleLeft}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
-                            <button onClick={handleRight}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleLeft}><img alt='left' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleRight}><img alt='right' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
                         </div>
                     </div>
                     : ""
@@ -47,8 +47,8 @@ const ProjectImageCurosel = ({ projectUrl }) => {
                     <div>
                         <img src={url[2].url} />
                         <div className='flex justify-between'>
-                            <button onClick={handleLeft}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
-                            <button onClick={handleRight}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleLeft}><img alt='left' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleRight}><img alt='right' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
                         </div>
                     </div>
                     : ""
@@ -58,8 +58,8 @@ const ProjectImageCurosel = ({ projectUrl }) => {
                     <div>
                         <img src={url[3].url} />
                         <div className='flex justify-between'>
-                            <button onClick={handleLeft}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
-                            <button onClick={handleRight}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleLeft}><img alt='left' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleRight}><img alt='right' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
                         </div>
                     </div>
                     : ""
@@ -69,8 +69,8 @@ const ProjectImageCurosel = ({ projectUrl }) => {
                     <div>
                         <img src={url[4].url} />
                         <div className='flex justify-between'>
-                            <button onClick={handleLeft}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
-                            <button onClick={handleRight}><img className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleLeft}><img alt='left' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer' src={LEFT_RIGHT_ARROW} /></button>
+                            <button onClick={handleRight}><img alt='right' className='-mt-24 lg:-mt-40 h-14 hover:cursor-pointer rotate-180' src={LEFT_RIGHT_ARROW} /></button>
                         </div>
                     </div>
                     : ""
