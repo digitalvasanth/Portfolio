@@ -41,9 +41,11 @@ export const SKILL_LIST_LOGOS = [
     }
 ];
 
+export const LEFT_RIGHT_ARROW = "https://cdn-icons-png.flaticon.com/128/10255/10255606.png";
+
 export const BG_IMG = "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725525622/xu2bkeidopsvt2e0clds.avif";
 
-export const PROFILE_PIC = "https://res.coudinary.com/dc6fwvmjh/image/upload/v1725652816/sj9mkqcyiuhllbafmzwz.png";
+export const PROFILE_PIC = "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1726933258/ur8eg6mmn940iduz2glq.png";
 
 export const DARK_MODE_ICON = "https://cdn-icons-png.flaticon.com/128/17645/17645417.png";
 
@@ -52,16 +54,19 @@ export const SOCIAL_MEDIA_LOGOS = [
         id: 0,
         logoName: "Twitter",
         url: "https://cdn-icons-png.flaticon.com/128/15707/15707824.png",
+        refer: "https://x.com/kosireddy_kumar"
     },
     {
         id: 1,
-        logoName: "Linked in",
+        logoName: "LinkedIn",
         url: "https://cdn-icons-png.flaticon.com/128/15707/15707782.png",
+        refer: "https://www.linkedin.com/in/kosireddyrakesh/"
     },
     {
         id: 2,
-        logoName: "Git hub",
-        url: "https://cdn-icons-png.flaticon.com/128/5968/5968896.png"
+        logoName: "Github",
+        url: "https://cdn-icons-png.flaticon.com/128/5968/5968896.png",
+        refer: "https://github.com/KOSIREDDYRAKESH"
     },
 ]
 

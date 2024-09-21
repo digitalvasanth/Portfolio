@@ -1,7 +1,8 @@
 import React from 'react'
 import { SKILL_LIST_LOGOS } from '../../utils/constants';
 
-const ProjectSkills = ({ tools }) => {
+const ProjectSkills = ({ tools, projectLink }) => {
+
     if (!tools)
         return null;
     return (
@@ -14,6 +15,7 @@ const ProjectSkills = ({ tools }) => {
                     <img className='w-10' alt={skill.name} src={skill.url} />
                 </div>
             )}
+            <a href={projectLink}><div className='bg-zinc-300 hover:cursor-pointer h-10 w-28 rounded-xl mt-14 p-2 px-7 text-red-400'>🔗 Link</div></a>
         </div>
     )
 }
