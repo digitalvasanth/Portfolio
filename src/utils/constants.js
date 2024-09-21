@@ -70,6 +70,8 @@ export const SOCIAL_MEDIA_LOGOS = [
     },
 ]
 
+export const RESUME_CDN = "https://drive.google.com/file/d/1xupLegqrjN3y6zE5IdgbGIMbG1HRZOTD/view";
+
 export const EMAIL_LOGO = "https://cdn-icons-png.flaticon.com/128/6244/6244710.png";
 
 export const MSG_SENT_ICON = "https://cdn-icons-png.flaticon.com/128/10135/10135168.png";
