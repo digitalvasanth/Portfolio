@@ -12,10 +12,10 @@ const ProjectSkills = ({ tools, projectLink }) => {
 
                 <div key={skill.name} className='mt-5 mx-5 flex flex-col items-center'>
                     <h1 className='text-sm pb-5'>{skill.name}</h1>
-                    <img className='w-10' alt={skill.name} src={skill.url} />
+                    <img className='w-10 motion-safe:animate-pulse' alt={skill.name} src={skill.url} />
                 </div>
             )}
-            <a href={projectLink}><div className='bg-zinc-300 hover:cursor-pointer h-10 w-28 rounded-xl mt-14 p-2 px-7 text-red-400'>🔗 Link</div></a>
+            <a href={projectLink}><div className='bg-zinc-300 hover:cursor-pointer h-10 w-28 rounded-xl mt-14 p-2 px-7 text-black font-bold'>🔗 Link<hr className=' border-black'></hr></div></a>
         </div>
     )
 }

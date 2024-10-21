@@ -38,16 +38,38 @@ export const SKILL_LIST_LOGOS = [
         id: 8,
         name: "Redux Toolkit",
         url: "https://img.icons8.com/?size=160&id=b6vIINYN0kfW&format=png"
+    },
+    {
+        id: 9,
+        name: "Node js",
+        url: "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1729550080/i181gasuuvdlkmpbz0jj.svg"
+    },
+    {
+        id: 10,
+        name: "Express",
+        url: "https://cdn.prod.website-files.com/6320125ace536b6ad148eca3/66502d746f57d299fe0e0c31_Image%201-Express.js.webp"
+    },
+    {
+        id: 11,
+        name: "MongoDB",
+        url: "https://cdn.worldvectorlogo.com/logos/mongodb-icon-1-1.svg"
+    },
+    {
+        id: 12,
+        name: "Postman",
+        url: "https://cdn.worldvectorlogo.com/logos/postman.svg"
     }
 ];
 
-export const LEFT_RIGHT_ARROW = "https://cdn-icons-png.flaticon.com/128/10255/10255606.png";
+export const LEFT_RIGHT_ARROW = "https://img.freepik.com/premium-photo/white-arrow-pointing-upward-long-shadow_1310235-1220.jpg?ga=GA1.1.1568921186.1729537348&semt=ais_hybrid";
 
 export const BG_IMG = "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725525622/xu2bkeidopsvt2e0clds.avif";
 
 export const PROFILE_PIC = "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1726933258/ur8eg6mmn940iduz2glq.png";
 
 export const DARK_MODE_ICON = "https://cdn-icons-png.flaticon.com/128/17645/17645417.png";
+
+export const LIGHT_MODE_ICON = "https://cdn-icons-png.flaticon.com/128/8775/8775513.png"
 
 export const SOCIAL_MEDIA_LOGOS = [
     {
@@ -74,7 +96,9 @@ export const RESUME_CDN = "https://drive.google.com/file/d/1xupLegqrjN3y6zE5Idgb
 
 export const EMAIL_LOGO = "https://cdn-icons-png.flaticon.com/128/6244/6244710.png";
 
-export const MSG_SENT_ICON = "https://cdn-icons-png.flaticon.com/128/10135/10135168.png";
+export const MSG_SENT_ICON_LIGHT = "https://cdn-icons-png.flaticon.com/128/724/724954.png";
+
+export const MSG_SENT_ICON_DARK = "https://cdn-icons-png.flaticon.com/128/3177/3177427.png";
 
 export const STUDY_MAN_LOGO = "https://res.cloudinary.com/dc6fwvmjh/image/upload/v1725642145/mtsl4mfvynhx7hcavm4u.png";
 
