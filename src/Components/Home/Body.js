@@ -8,10 +8,12 @@ const Body = () => {
     const mode = useSelector(store => store.mode.isModeDark)
     let opacity = "opacity-95";
     let bodyBg = "";
+    let navIcon = ""
 
 
     mode ? bodyBg = " bg-gray-800 " : bodyBg = "";
     mode ? opacity = "opacity-55" : opacity = "opacity-95";
+    mode ? navIcon = " bg-white " : navIcon = " bg-black text-white ";
     return (
         <div id="sectionHome">
             <div className='lg:h-[103vh] lg:bg-gray-800 w-[102.5vw] lg:w-full'>
@@ -37,7 +39,7 @@ const Body = () => {
                     spy={true}
                     smooth={true}
                     duration={500}>
-                    <div className='animate-ping hidden  lg:flex lg:justify-center text-center -mt-12'><div className='z-10 animate-bounce hover:bg-slate-400 bg-white w-14 h-14 rounded-full font-bold text-4xl'>&#8964;</div></div></Link>
+                    <div className=' hidden  lg:flex lg:justify-center text-center -mt-12'><div className={'z-10 animate-bounce hover:bg-slate-400  w-14 h-14 rounded-full font-bold text-4xl' + navIcon}>&#8964;</div></div></Link>
             </div>
 
         </div>
