@@ -25,7 +25,7 @@ const Header = () => {
     darkMode ? nav_bg = "bg-gray-900 text-white" : nav_bg = "bg-white";
     darkMode ? menu = "bg-white" : menu = "bg-black";
     return (
-        <nav className={"fixed left-0 z-50 top-0 w-screen shadow-lg px-2 " + nav_bg} >
+        <nav className={"fixed left-0 z-50 top-0 w-full shadow-lg px-2 " + nav_bg} >
             <div className='container mx-auto py-5 flex items-center text-sm uppercase font-semibold justify-between'>
                 <Link to={navLinks[0].navSection}
                     spy={true}
