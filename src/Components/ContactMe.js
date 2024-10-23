@@ -34,7 +34,7 @@ const ContactMe = () => {
 
     };
     return (
-        <div id="sectionContact">
+        <div id="sectionContact" className='w-[102.5vw] lg:w-full'>
             <hr></hr>
             <div className={contactBg + 'pb-1'}>
                 <h1 className='text-center text-4xl lg:text-7xl font-extralight pt-16 mb-10 lg:mb-14'>Connect with me<hr className='m-auto w-0 lg:w-2/6'></hr></h1>
@@ -71,6 +71,8 @@ const ContactMe = () => {
                     </div>
                 </div>
             </div>
+
+
         </div>
     )
 }

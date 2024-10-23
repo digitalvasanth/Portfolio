@@ -11,7 +11,8 @@ const Intro = () => {
     mode ? text = "text-white " : text = "";
 
     return (
-        <div className={cardBg + 'lg:absolute lg:mt-16 lg:rounded-2xl w-full lg:w-4/12 lg:mx-20 p-4 lg:p-9'}>
+        <div className={cardBg + 'lg:absolute lg:mt-16 lg:rounded-2xl  lg:w-4/12 lg:mx-20 p-4 lg:p-9'
+        }>
             <h1 className={text + 'mt-28 my-4  lg:my-4 text-7xl lg:text-7xl font-extralight'}><span className='text-red-600'>Hi,</span> I'm Rakesh</h1>
             <p className={text + 'text-3xl mt-7 mb-5 lg:text-3xl lg:my-5'}>A Full Stack developer</p>
             <span className={text + 'text-base lg:text-base'}>I enjoy solving complex problems. Frequently praised as detail-oriented by my peers, I can be relied upon to help your company achieve its goals by providing sustainable and scalable solutions.</span>
@@ -24,7 +25,7 @@ const Intro = () => {
                     smooth={true}
                     duration={500} to="sectionContact"><button className={'border border-red-600  text-red-600 p-1 lg:p-2 lg:h-12 lg:w-40 h-10 w-full px-7 ml-3 hover:animate-pulse ' + text}>GET IN TOUCH</button></Link>
             </div>
-        </div>
+        </div >
     )
 }
 

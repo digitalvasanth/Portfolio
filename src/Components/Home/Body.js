@@ -12,7 +12,7 @@ const Body = () => {
     mode ? opacity = "opacity-55" : opacity = "opacity-95";
     return (
         <div id="sectionHome">
-            <div className='lg:h-[103vh] lg:bg-gray-800'>
+            <div className='lg:h-[103vh] lg:bg-gray-800 w-[102.5vw] lg:w-full'>
                 <div className={bodyBg + 'h-1/2 lg:flex justify-center lg:h-screen'}>
                     <img alt='bg' className={'hidden h-screen w-screen lg:block absolute ' + opacity} src={BG_IMG} />
                     <div className='lg:w-6/12 flex items-center'>

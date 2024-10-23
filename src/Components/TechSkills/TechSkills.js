@@ -10,7 +10,7 @@ const TechSkills = () => {
     mode ? techBg = "bg-gray-800 text-white" : techBg = "bg-slate-100 ";
 
     return (
-        <div id="sectionTech" className={'pt-10 lg:-mt-6 ' + techBg}>
+        <div id="sectionTech" className={'pt-10 lg:-mt-6 w-[102.5vw] lg:w-full ' + techBg}>
             <h1 className='text-center text-5xl lg:text-7xl font-extralight'>My Tech Stack<hr className='w-0 lg:w-2/6 m-auto'></hr></h1>
             <div className='w-screen flex  lg:px-40 lg:mt-24 lg:pb-14'>
                 <div className='hidden lg:bg--400  lg:block lg:w-4/12'>

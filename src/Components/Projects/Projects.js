@@ -16,7 +16,7 @@ const Projects = () => {
         return null;
 
     return (
-        <div id="sectionProjects" className={projectsBg}>
+        <div id="sectionProjects" className={projectsBg + "w-[102.5vw] lg:w-full"}>
             <hr></hr>
             <h1 className={text + 'text-center text-5xl lg:text-7xl font-extralight mt-16 lg:mb-10'}>PROJECTS<hr className='m-auto w-0 lg:w-2/6'></hr></h1>
             {projects.map(project => <ReduxProject key={project.id} project={project} />)}
