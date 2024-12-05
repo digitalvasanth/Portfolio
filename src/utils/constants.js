@@ -92,7 +92,7 @@ export const SOCIAL_MEDIA_LOGOS = [
     },
 ]
 
-export const RESUME_CDN = "https://drive.google.com/file/d/1iysbGOWf8coLowDV5fTn-eO2rK1hMclj/view?usp=sharing";
+export const RESUME_CDN = "https://drive.google.com/file/d/1peYi5__fAA27QVV7pIcYOzUWslMs7J9L/view?usp=drive_link";
 
 export const EMAIL_LOGO = "https://cdn-icons-png.flaticon.com/128/6244/6244710.png";
 
