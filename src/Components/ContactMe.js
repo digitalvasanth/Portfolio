@@ -50,7 +50,7 @@ const ContactMe = () => {
 
                         <a className='flex items-center hover:animate-bounce' href='https://mail.google.com/mail/u/5/#sent'>
                             <img className='w-10 mx-5 my-2 bg-white rounded-full' alt='email' src={EMAIL_LOGO} />
-                            <span>rakeshkosireddy6@gmail.com</span></a>
+                            <span>digitalvasanth01@gmail.com</span></a>
 
                     </div>
                     <div className='lg:w-6/12 m-5 p-5'>

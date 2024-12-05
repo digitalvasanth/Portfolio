@@ -8,7 +8,7 @@ import { DARK_MODE_ICON } from '../../utils/constants';
 import { LIGHT_MODE_ICON } from '../../utils/constants';
 
 const Header = () => {
-    const name = "< Rakesh />"
+    const name = "< Vasanth Kumar />"
     const dispatch = useDispatch();
     const { nav, mode } = useSelector(store => store);
     const toogle = nav.isMenuOpen;
